@@ -5,4 +5,4 @@ This webpage was made using the following languages: HTML, CSS, and JavaScript.
 
 Find the deployed page here: https://sldowd.github.io/password-generator/
 
-![Website Screenshot](Screen Shot 2020-11-01 at 12.24.07 PM.png)
+![Website Screenshot](https://github.com/sldowd/password-generator/blob/master/Screen%20Shot%202020-11-01%20at%2012.24.07%20PM.png)
