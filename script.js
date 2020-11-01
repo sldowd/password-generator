@@ -27,7 +27,7 @@ function generatePassword () {
 
   //prompt user for character types
   var hasSpecialChar = confirm(
-    'Click OK to confirm including special characters.\nClick cancel if you do not with to include them.'
+    'Click OK to confirm including special characters.\nClick cancel if you do not wish to include them.'
     );
     if (hasSpecialChar) {
       for (var i = 0; i < specialCharaters.length; i++) {
@@ -35,7 +35,7 @@ function generatePassword () {
       }
     }
   var hasLowecaseChar = confirm(
-    'Click ok to confirm including lowercase letters.\nClick cancel if you do not with to include them.'
+    'Click ok to confirm including lowercase letters.\nClick cancel if you do not wish to include them.'
   );
     if (hasLowecaseChar) {
       for (var i = 0; i < lowercase.length; i++) {
@@ -43,7 +43,7 @@ function generatePassword () {
       }
     }
   var hasUppercaseChar = confirm(
-    'Click ok to confirm including uppercase letters.\nClick cancel if you do not with to include them.'
+    'Click ok to confirm including uppercase letters.\nClick cancel if you do not wish to include them.'
   );
     if (hasUppercaseChar) {
       for (var i = 0; i < UPPERCASE.length; i++) {
@@ -51,7 +51,7 @@ function generatePassword () {
       }
     }
   var hasNumbers = confirm(
-    'Click ok to confirm including numbers.\nClick cancel if you do not with to include them.'
+    'Click ok to confirm including numbers.\nClick cancel if you do not wish to include them.'
   );
   if (hasNumbers) {
     for (var i = 0; i < numbers.length; i++) {
